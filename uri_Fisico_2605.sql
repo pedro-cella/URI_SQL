@@ -71,10 +71,6 @@ SELECT * FROM categories;
 SELECT * FROM products;
 
 -- Resposta exercicio
-SELECT name, id_providers
-FROM products
-WHERE id_categories = 6;
-
 SELECT products.name, providers.name
 FROM products
 INNER JOIN providers
